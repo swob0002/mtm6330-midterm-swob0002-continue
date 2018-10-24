@@ -1,3 +1,18 @@
+/* Publicly available on Guthub Pages (Check)
+Used Git to manage development (Check)
+NPM	 (Check)
+Gulp (Check) - Issues I had earlier were resolved with testing!
+Gulp Sass (Check) - Issues I had earlier were resolved with testing!
+Sass (Check)
+Responsive Design (Check)
+Conforms to Requirements (to the best of attempts; not all pages essential)
+Design (Nice look, but could have been more advanced and interesting IMO! Just wanted to get the basics of new tools working (..Check!))
+Production Ready (to the best of attempts)
+Code Quality (I think Check; feedback very appreciated) */
+
+$background-image-path: url('../../img/background.jpg');
+
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
 @import url('https://fonts.googleapis.com/css?family=Great+Vibes|Karla');
 /* font-family: 'Great Vibes', cursive;
 font-family: 'Karla', sans-serif; */
@@ -8,7 +23,7 @@ font-family: 'Karla', sans-serif; */
 
 body {
   /* sets responsive background image */
-  background: url(../img/background.jpg) no-repeat center center fixed;
+  background: $background-image-path no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

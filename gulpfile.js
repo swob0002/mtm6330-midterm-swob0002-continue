@@ -7,7 +7,7 @@ const autoprefixer = require('autoprefixer') // load the autoprefixer plugin
 const cssnano = require('cssnano') // load the cssnano plugin
 
 // Define a new task called 'sass' that we can call to compile Sass to CSS
-gulp.task('sass', function() {
+gulp.task('sass', function () {
   // Create a plugins variable with the names and configuration parameters
   // of the PostCSS plugins that we want to use.
   const plugins = [
@@ -27,7 +27,7 @@ gulp.task('sass', function() {
 
 // Define a new default task (so we can just call 'gulp' on the command line)
 // to automatically compile when we save changes to our Sass files
-gulp.task('default', function() {
+gulp.task('default', function () {
   gulp.watch(
     sassPath, // which files to watch for changes (use our variable)
     ['sass']
