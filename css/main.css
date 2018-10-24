@@ -1,5 +1,5 @@
 /* Publicly available on Guthub Pages (Check)
--Used Git to manage development (Check, minor issue with GitHub pages, will consult)
+-Used Git to manage development (Check, minor issue with GitHub pages, will consult; dev branch and merging was tested and seems to work)
 -NPM	 (Check)
 -Gulp (Check) - Issues I had earlier were resolved with testing!
 -Gulp Sass (Check) - Issues I had earlier were resolved with testing!
@@ -6343,6 +6343,9 @@ body {
   max-width: 400px;
   height: auto;
   padding: 10px; }
+
+.navbar {
+  background-color: #efe08d; }
 
 .mainmenu {
   border: 1px solid #ccc;

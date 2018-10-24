@@ -13,29 +13,48 @@
 </head>
 
 <body>
-  <!-- Main page photo -->
-  <img src="./img/mainphoto.jpg" class="mx-auto d-block mainphoto" alt="Wedding">
 
-  <!-- Main page headers -->
-  <h1 class="title text-center">Mark and Marie</h1>
-  <h2 class="title text-center">Oct 23, 2018</h2>
+  <!-- Nav bar for non-homepage -->
+  <!-- Some tips on this found https://www.reddit.com/r/bootstrap/comments/8xybcx/navbar_centered_brand_with_navitems_on_the_side/ -->
+  <nav class="navbar navbar-expand-lg navbar-light navbar-custom">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMain" aria-controls="navbarMain"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarMain">
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="./index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./details.html">Details</a>
+        </li>
+        <li class="nav-item active">
+          <a class="navbar-brand mx-auto" href="./RSVP.html">RSVP</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./registry.html">Registry</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="./gallery.html">Gallery</a>
+        </li>
+      </ul>
+    </div>
+    <!-- Main page photo -->
+    <img src="./img/mainphoto.jpg" class="mx-auto d-block mainphoto" alt="Wedding">
 
-  <!-- Main page specific menu banner -->
-  <ul class="mainmenu">
-    <li><a href="us.html">Us</a></li>
-    <li><a href="details.html">Details</a></li>
-    <li><a href="RSVP.html">RSVP</a></li>
-    <li><a href="registry.html">Registry</a></li>
-    <li><a href="gallery.html">Gallery</a></li>
-  </ul>
+    <!-- Main page headers -->
+    <h1 class="title text-center">Mark and Marie</h1>
+    <h2 class="title text-center">Oct 23, 2018</h2>
 
-  <footer>
-    <p>&copy; Swoboda Design 2018</p>
-  </footer>
 
-  <!-- Required Bootstrap .js-->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <footer>
+      <p>&copy; Swoboda Design 2018</p>
+    </footer>
+
+    <!-- Required Bootstrap .js-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 
 </html>
