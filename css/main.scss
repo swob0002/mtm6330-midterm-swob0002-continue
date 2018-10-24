@@ -31,6 +31,10 @@ body {
   font-family: 'Karla', sans-serif;
 }
 
+.row {
+  display: flex inline-block;
+}
+
 .mainphoto {
   width: auto;
   max-width: 400px;
@@ -60,11 +64,28 @@ body {
 }
 
 footer {
-  position: absolute;
+  position: relative;
   right: 0;
   bottom: 0;
   left: 0;
   padding: 0.5rem;
   background-color: #efefef;
   text-align: center;
+}
+
+#details-text p,
+#details-text ul {
+  background-color: #eee4ad;
+  opacity: 0.8;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+@media screen and (max-width: 540px) {
+  #details-text p,
+  #details-text ul {
+    background-color: #efe08d;
+    border: 2px solid;
+    padding: 1.5rem;
+  }
 }
